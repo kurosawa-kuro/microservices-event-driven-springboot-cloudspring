@@ -1,6 +1,6 @@
-package com.eazybytes.loans;
+package com.kurobytes.loans;
 
-import com.eazybytes.loans.command.interceptor.LoanCommandInterceptor;
+import com.kurobytes.loans.command.interceptor.LoanCommandInterceptor;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.axonframework.config.EventProcessingConfigurer;
 import org.axonframework.eventhandling.PropagatingErrorHandler;

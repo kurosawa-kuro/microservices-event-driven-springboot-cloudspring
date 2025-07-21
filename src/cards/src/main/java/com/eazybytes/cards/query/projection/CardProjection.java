@@ -1,10 +1,10 @@
-package com.eazybytes.cards.query.projection;
+package com.kurobytes.cards.query.projection;
 
-import com.eazybytes.cards.command.event.CardCreatedEvent;
-import com.eazybytes.cards.command.event.CardDeletedEvent;
-import com.eazybytes.cards.command.event.CardUpdatedEvent;
-import com.eazybytes.cards.entity.Cards;
-import com.eazybytes.cards.service.ICardsService;
+import com.kurobytes.cards.command.event.CardCreatedEvent;
+import com.kurobytes.cards.command.event.CardDeletedEvent;
+import com.kurobytes.cards.command.event.CardUpdatedEvent;
+import com.kurobytes.cards.entity.Cards;
+import com.kurobytes.cards.service.ICardsService;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.config.ProcessingGroup;
 import org.axonframework.eventhandling.EventHandler;

@@ -1,4 +1,4 @@
-package com.eazybytes.accounts.dto;
+package com.kurobytes.accounts.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

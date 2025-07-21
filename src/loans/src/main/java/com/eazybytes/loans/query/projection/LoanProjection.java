@@ -1,10 +1,10 @@
-package com.eazybytes.loans.query.projection;
+package com.kurobytes.loans.query.projection;
 
-import com.eazybytes.loans.command.event.LoanCreatedEvent;
-import com.eazybytes.loans.command.event.LoanDeletedEvent;
-import com.eazybytes.loans.command.event.LoanUpdatedEvent;
-import com.eazybytes.loans.entity.Loans;
-import com.eazybytes.loans.service.ILoansService;
+import com.kurobytes.loans.command.event.LoanCreatedEvent;
+import com.kurobytes.loans.command.event.LoanDeletedEvent;
+import com.kurobytes.loans.command.event.LoanUpdatedEvent;
+import com.kurobytes.loans.entity.Loans;
+import com.kurobytes.loans.service.ILoansService;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.config.ProcessingGroup;
 import org.axonframework.eventhandling.EventHandler;

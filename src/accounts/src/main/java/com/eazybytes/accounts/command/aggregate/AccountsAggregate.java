@@ -1,11 +1,11 @@
-package com.eazybytes.accounts.command.aggregate;
+package com.kurobytes.accounts.command.aggregate;
 
-import com.eazybytes.accounts.command.CreateAccountCommand;
-import com.eazybytes.accounts.command.DeleteAccountCommand;
-import com.eazybytes.accounts.command.UpdateAccountCommand;
-import com.eazybytes.accounts.command.event.AccountCreatedEvent;
-import com.eazybytes.accounts.command.event.AccountDeletedEvent;
-import com.eazybytes.accounts.command.event.AccountUpdatedEvent;
+import com.kurobytes.accounts.command.CreateAccountCommand;
+import com.kurobytes.accounts.command.DeleteAccountCommand;
+import com.kurobytes.accounts.command.UpdateAccountCommand;
+import com.kurobytes.accounts.command.event.AccountCreatedEvent;
+import com.kurobytes.accounts.command.event.AccountDeletedEvent;
+import com.kurobytes.accounts.command.event.AccountUpdatedEvent;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;
 import org.axonframework.modelling.command.AggregateIdentifier;

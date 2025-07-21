@@ -1,4 +1,4 @@
-package com.eazybytes.gatewayserver.dto;
+package com.kurobytes.gatewayserver.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

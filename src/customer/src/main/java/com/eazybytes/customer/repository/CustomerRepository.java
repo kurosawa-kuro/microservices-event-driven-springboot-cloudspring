@@ -1,6 +1,6 @@
-package com.eazybytes.customer.repository;
+package com.kurobytes.customer.repository;
 
-import com.eazybytes.customer.entity.Customer;
+import com.kurobytes.customer.entity.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

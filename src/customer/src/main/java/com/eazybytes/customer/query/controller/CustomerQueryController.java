@@ -1,8 +1,8 @@
-package com.eazybytes.customer.query.controller;
+package com.kurobytes.customer.query.controller;
 
-import com.eazybytes.customer.dto.CustomerDto;
-import com.eazybytes.customer.query.FindCustomerQuery;
-import com.eazybytes.customer.service.ICustomerService;
+import com.kurobytes.customer.dto.CustomerDto;
+import com.kurobytes.customer.query.FindCustomerQuery;
+import com.kurobytes.customer.service.ICustomerService;
 import jakarta.validation.constraints.Pattern;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.messaging.responsetypes.ResponseTypes;

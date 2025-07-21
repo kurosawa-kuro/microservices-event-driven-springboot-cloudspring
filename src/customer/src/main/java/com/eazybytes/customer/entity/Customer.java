@@ -1,4 +1,4 @@
-package com.eazybytes.customer.entity;
+package com.kurobytes.customer.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

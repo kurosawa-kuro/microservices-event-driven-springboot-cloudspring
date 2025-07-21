@@ -1,8 +1,8 @@
-package com.eazybytes.customer.mapper;
+package com.kurobytes.customer.mapper;
 
-import com.eazybytes.customer.command.event.CustomerUpdatedEvent;
-import com.eazybytes.customer.dto.CustomerDto;
-import com.eazybytes.customer.entity.Customer;
+import com.kurobytes.customer.command.event.CustomerUpdatedEvent;
+import com.kurobytes.customer.dto.CustomerDto;
+import com.kurobytes.customer.entity.Customer;
 
 public class CustomerMapper {
 

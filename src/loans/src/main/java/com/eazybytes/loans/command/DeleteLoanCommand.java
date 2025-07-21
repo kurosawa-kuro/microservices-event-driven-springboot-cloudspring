@@ -1,4 +1,4 @@
-package com.eazybytes.loans.command;
+package com.kurobytes.loans.command;
 
 import lombok.Builder;
 import lombok.Data;

@@ -1,13 +1,13 @@
-package com.eazybytes.loans.command.interceptor;
+package com.kurobytes.loans.command.interceptor;
 
-import com.eazybytes.loans.command.CreateLoanCommand;
-import com.eazybytes.loans.command.DeleteLoanCommand;
-import com.eazybytes.loans.command.UpdateLoanCommand;
-import com.eazybytes.loans.constants.LoansConstants;
-import com.eazybytes.loans.entity.Loans;
-import com.eazybytes.loans.exception.LoanAlreadyExistsException;
-import com.eazybytes.loans.exception.ResourceNotFoundException;
-import com.eazybytes.loans.repository.LoansRepository;
+import com.kurobytes.loans.command.CreateLoanCommand;
+import com.kurobytes.loans.command.DeleteLoanCommand;
+import com.kurobytes.loans.command.UpdateLoanCommand;
+import com.kurobytes.loans.constants.LoansConstants;
+import com.kurobytes.loans.entity.Loans;
+import com.kurobytes.loans.exception.LoanAlreadyExistsException;
+import com.kurobytes.loans.exception.ResourceNotFoundException;
+import com.kurobytes.loans.repository.LoansRepository;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.commandhandling.CommandMessage;
 import org.axonframework.messaging.MessageDispatchInterceptor;

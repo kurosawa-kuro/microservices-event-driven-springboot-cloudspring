@@ -1,13 +1,13 @@
-package com.eazybytes.accounts.command.interceptor;
+package com.kurobytes.accounts.command.interceptor;
 
-import com.eazybytes.accounts.command.CreateAccountCommand;
-import com.eazybytes.accounts.command.DeleteAccountCommand;
-import com.eazybytes.accounts.command.UpdateAccountCommand;
-import com.eazybytes.accounts.constants.AccountsConstants;
-import com.eazybytes.accounts.entity.Accounts;
-import com.eazybytes.accounts.exception.AccountAlreadyExistsException;
-import com.eazybytes.accounts.exception.ResourceNotFoundException;
-import com.eazybytes.accounts.repository.AccountsRepository;
+import com.kurobytes.accounts.command.CreateAccountCommand;
+import com.kurobytes.accounts.command.DeleteAccountCommand;
+import com.kurobytes.accounts.command.UpdateAccountCommand;
+import com.kurobytes.accounts.constants.AccountsConstants;
+import com.kurobytes.accounts.entity.Accounts;
+import com.kurobytes.accounts.exception.AccountAlreadyExistsException;
+import com.kurobytes.accounts.exception.ResourceNotFoundException;
+import com.kurobytes.accounts.repository.AccountsRepository;
 import jakarta.annotation.Nonnull;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.commandhandling.CommandMessage;

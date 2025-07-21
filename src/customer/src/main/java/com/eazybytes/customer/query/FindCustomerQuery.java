@@ -1,4 +1,4 @@
-package com.eazybytes.customer.query;
+package com.kurobytes.customer.query;
 
 import lombok.Value;
 

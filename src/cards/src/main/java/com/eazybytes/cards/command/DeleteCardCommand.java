@@ -1,4 +1,4 @@
-package com.eazybytes.cards.command;
+package com.kurobytes.cards.command;
 
 import lombok.Builder;
 import lombok.Data;

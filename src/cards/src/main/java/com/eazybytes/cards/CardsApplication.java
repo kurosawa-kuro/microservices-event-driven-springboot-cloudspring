@@ -1,6 +1,6 @@
-package com.eazybytes.cards;
+package com.kurobytes.cards;
 
-import com.eazybytes.cards.command.interceptor.CardCommandInterceptor;
+import com.kurobytes.cards.command.interceptor.CardCommandInterceptor;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.axonframework.config.EventProcessingConfigurer;
 import org.axonframework.eventhandling.PropagatingErrorHandler;

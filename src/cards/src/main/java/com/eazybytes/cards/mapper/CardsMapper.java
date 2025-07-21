@@ -1,8 +1,8 @@
-package com.eazybytes.cards.mapper;
+package com.kurobytes.cards.mapper;
 
-import com.eazybytes.cards.command.event.CardUpdatedEvent;
-import com.eazybytes.cards.dto.CardsDto;
-import com.eazybytes.cards.entity.Cards;
+import com.kurobytes.cards.command.event.CardUpdatedEvent;
+import com.kurobytes.cards.dto.CardsDto;
+import com.kurobytes.cards.entity.Cards;
 
 public class CardsMapper {
 

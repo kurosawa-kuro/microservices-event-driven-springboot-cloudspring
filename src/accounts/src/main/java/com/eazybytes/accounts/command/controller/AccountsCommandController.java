@@ -1,12 +1,12 @@
-package com.eazybytes.accounts.command.controller;
+package com.kurobytes.accounts.command.controller;
 
-import com.eazybytes.accounts.command.CreateAccountCommand;
-import com.eazybytes.accounts.command.DeleteAccountCommand;
-import com.eazybytes.accounts.command.UpdateAccountCommand;
-import com.eazybytes.accounts.constants.AccountsConstants;
-import com.eazybytes.accounts.dto.AccountsDto;
-import com.eazybytes.accounts.dto.ResponseDto;
-import com.eazybytes.accounts.service.IAccountsService;
+import com.kurobytes.accounts.command.CreateAccountCommand;
+import com.kurobytes.accounts.command.DeleteAccountCommand;
+import com.kurobytes.accounts.command.UpdateAccountCommand;
+import com.kurobytes.accounts.constants.AccountsConstants;
+import com.kurobytes.accounts.dto.AccountsDto;
+import com.kurobytes.accounts.dto.ResponseDto;
+import com.kurobytes.accounts.service.IAccountsService;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Pattern;
 import lombok.RequiredArgsConstructor;

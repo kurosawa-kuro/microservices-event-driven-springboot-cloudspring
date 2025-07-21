@@ -1,7 +1,7 @@
-package com.eazybytes.loans.query.controller;
+package com.kurobytes.loans.query.controller;
 
-import com.eazybytes.loans.dto.LoansDto;
-import com.eazybytes.loans.query.FindLoanQuery;
+import com.kurobytes.loans.dto.LoansDto;
+import com.kurobytes.loans.query.FindLoanQuery;
 import jakarta.validation.constraints.Pattern;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.messaging.responsetypes.ResponseTypes;

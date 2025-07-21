@@ -1,4 +1,4 @@
-package com.eazybytes.customer.command;
+package com.kurobytes.customer.command;
 
 import lombok.Builder;
 import lombok.Data;

@@ -1,11 +1,11 @@
-package com.eazybytes.customer.command.controller;
+package com.kurobytes.customer.command.controller;
 
-import com.eazybytes.customer.command.CreateCustomerCommand;
-import com.eazybytes.customer.command.DeleteCustomerCommand;
-import com.eazybytes.customer.command.UpdateCustomerCommand;
-import com.eazybytes.customer.constants.CustomerConstants;
-import com.eazybytes.customer.dto.CustomerDto;
-import com.eazybytes.customer.dto.ResponseDto;
+import com.kurobytes.customer.command.CreateCustomerCommand;
+import com.kurobytes.customer.command.DeleteCustomerCommand;
+import com.kurobytes.customer.command.UpdateCustomerCommand;
+import com.kurobytes.customer.constants.CustomerConstants;
+import com.kurobytes.customer.dto.CustomerDto;
+import com.kurobytes.customer.dto.ResponseDto;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Pattern;
 import lombok.RequiredArgsConstructor;

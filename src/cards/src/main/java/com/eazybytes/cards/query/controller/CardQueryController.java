@@ -1,7 +1,7 @@
-package com.eazybytes.cards.query.controller;
+package com.kurobytes.cards.query.controller;
 
-import com.eazybytes.cards.dto.CardsDto;
-import com.eazybytes.cards.query.FindCardQuery;
+import com.kurobytes.cards.dto.CardsDto;
+import com.kurobytes.cards.query.FindCardQuery;
 import jakarta.validation.constraints.Pattern;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.messaging.responsetypes.ResponseTypes;

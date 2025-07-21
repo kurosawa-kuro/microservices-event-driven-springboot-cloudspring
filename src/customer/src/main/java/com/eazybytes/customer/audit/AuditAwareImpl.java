@@ -1,4 +1,4 @@
-package com.eazybytes.customer.audit;
+package com.kurobytes.customer.audit;
 
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.stereotype.Component;

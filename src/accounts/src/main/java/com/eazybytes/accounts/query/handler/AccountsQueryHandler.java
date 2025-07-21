@@ -1,8 +1,8 @@
-package com.eazybytes.accounts.query.handler;
+package com.kurobytes.accounts.query.handler;
 
-import com.eazybytes.accounts.dto.AccountsDto;
-import com.eazybytes.accounts.query.FindAccountQuery;
-import com.eazybytes.accounts.service.IAccountsService;
+import com.kurobytes.accounts.dto.AccountsDto;
+import com.kurobytes.accounts.query.FindAccountQuery;
+import com.kurobytes.accounts.service.IAccountsService;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.queryhandling.QueryHandler;
 import org.springframework.stereotype.Component;

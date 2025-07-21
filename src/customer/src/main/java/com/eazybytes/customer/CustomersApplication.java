@@ -1,6 +1,6 @@
-package com.eazybytes.customer;
+package com.kurobytes.customer;
 
-import com.eazybytes.customer.command.interceptor.CustomerCommandInterceptor;
+import com.kurobytes.customer.command.interceptor.CustomerCommandInterceptor;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.axonframework.config.EventProcessingConfigurer;
 import org.axonframework.eventhandling.PropagatingErrorHandler;

@@ -1,11 +1,11 @@
-package com.eazybytes.cards.command.aggregate;
+package com.kurobytes.cards.command.aggregate;
 
-import com.eazybytes.cards.command.CreateCardCommand;
-import com.eazybytes.cards.command.DeleteCardCommand;
-import com.eazybytes.cards.command.UpdateCardCommand;
-import com.eazybytes.cards.command.event.CardCreatedEvent;
-import com.eazybytes.cards.command.event.CardDeletedEvent;
-import com.eazybytes.cards.command.event.CardUpdatedEvent;
+import com.kurobytes.cards.command.CreateCardCommand;
+import com.kurobytes.cards.command.DeleteCardCommand;
+import com.kurobytes.cards.command.UpdateCardCommand;
+import com.kurobytes.cards.command.event.CardCreatedEvent;
+import com.kurobytes.cards.command.event.CardDeletedEvent;
+import com.kurobytes.cards.command.event.CardUpdatedEvent;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;
 import org.axonframework.modelling.command.AggregateIdentifier;

@@ -1,6 +1,6 @@
-package com.eazybytes.customer.exception;
+package com.kurobytes.customer.exception;
 
-import com.eazybytes.common.dto.ErrorResponseDto;
+import com.kurobytes.common.dto.ErrorResponseDto;
 import org.axonframework.commandhandling.CommandExecutionException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

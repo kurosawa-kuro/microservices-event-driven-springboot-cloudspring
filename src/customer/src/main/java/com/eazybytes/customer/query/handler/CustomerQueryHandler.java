@@ -1,8 +1,8 @@
-package com.eazybytes.customer.query.handler;
+package com.kurobytes.customer.query.handler;
 
-import com.eazybytes.customer.dto.CustomerDto;
-import com.eazybytes.customer.query.FindCustomerQuery;
-import com.eazybytes.customer.service.ICustomerService;
+import com.kurobytes.customer.dto.CustomerDto;
+import com.kurobytes.customer.query.FindCustomerQuery;
+import com.kurobytes.customer.service.ICustomerService;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.queryhandling.QueryHandler;
 import org.springframework.stereotype.Component;

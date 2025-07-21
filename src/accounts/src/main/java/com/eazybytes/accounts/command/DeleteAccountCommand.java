@@ -1,4 +1,4 @@
-package com.eazybytes.accounts.command;
+package com.kurobytes.accounts.command;
 
 import lombok.Builder;
 import lombok.Data;

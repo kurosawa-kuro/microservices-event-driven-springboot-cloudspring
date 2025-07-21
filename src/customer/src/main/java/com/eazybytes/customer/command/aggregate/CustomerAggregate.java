@@ -1,15 +1,15 @@
-package com.eazybytes.customer.command.aggregate;
+package com.kurobytes.customer.command.aggregate;
 
-import com.eazybytes.customer.command.CreateCustomerCommand;
-import com.eazybytes.customer.command.DeleteCustomerCommand;
-import com.eazybytes.customer.command.UpdateCustomerCommand;
-import com.eazybytes.customer.command.event.CustomerCreatedEvent;
-import com.eazybytes.customer.command.event.CustomerDeletedEvent;
-import com.eazybytes.customer.command.event.CustomerUpdatedEvent;
-import com.eazybytes.customer.entity.Customer;
-import com.eazybytes.customer.exception.CustomerAlreadyExistsException;
-import com.eazybytes.customer.exception.ResourceNotFoundException;
-import com.eazybytes.customer.repository.CustomerRepository;
+import com.kurobytes.customer.command.CreateCustomerCommand;
+import com.kurobytes.customer.command.DeleteCustomerCommand;
+import com.kurobytes.customer.command.UpdateCustomerCommand;
+import com.kurobytes.customer.command.event.CustomerCreatedEvent;
+import com.kurobytes.customer.command.event.CustomerDeletedEvent;
+import com.kurobytes.customer.command.event.CustomerUpdatedEvent;
+import com.kurobytes.customer.entity.Customer;
+import com.kurobytes.customer.exception.CustomerAlreadyExistsException;
+import com.kurobytes.customer.exception.ResourceNotFoundException;
+import com.kurobytes.customer.repository.CustomerRepository;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;
 import org.axonframework.eventsourcing.eventstore.EventStore;

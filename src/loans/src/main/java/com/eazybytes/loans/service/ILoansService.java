@@ -1,8 +1,8 @@
-package com.eazybytes.loans.service;
+package com.kurobytes.loans.service;
 
-import com.eazybytes.loans.command.event.LoanUpdatedEvent;
-import com.eazybytes.loans.dto.LoansDto;
-import com.eazybytes.loans.entity.Loans;
+import com.kurobytes.loans.command.event.LoanUpdatedEvent;
+import com.kurobytes.loans.dto.LoansDto;
+import com.kurobytes.loans.entity.Loans;
 
 public interface ILoansService {
 

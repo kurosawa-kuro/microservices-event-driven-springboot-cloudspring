@@ -1,9 +1,9 @@
-package com.eazybytes.gatewayserver.service.client;
+package com.kurobytes.gatewayserver.service.client;
 
-import com.eazybytes.gatewayserver.dto.AccountsDto;
-import com.eazybytes.gatewayserver.dto.CardsDto;
-import com.eazybytes.gatewayserver.dto.CustomerDto;
-import com.eazybytes.gatewayserver.dto.LoansDto;
+import com.kurobytes.gatewayserver.dto.AccountsDto;
+import com.kurobytes.gatewayserver.dto.CardsDto;
+import com.kurobytes.gatewayserver.dto.CustomerDto;
+import com.kurobytes.gatewayserver.dto.LoansDto;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.service.annotation.GetExchange;

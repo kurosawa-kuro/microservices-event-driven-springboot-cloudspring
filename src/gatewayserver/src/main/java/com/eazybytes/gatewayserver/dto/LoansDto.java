@@ -1,4 +1,4 @@
-package com.eazybytes.gatewayserver.dto;
+package com.kurobytes.gatewayserver.dto;
 
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Pattern;

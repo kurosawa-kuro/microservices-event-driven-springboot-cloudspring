@@ -1,11 +1,11 @@
-package com.eazybytes.loans.command.aggregate;
+package com.kurobytes.loans.command.aggregate;
 
-import com.eazybytes.loans.command.CreateLoanCommand;
-import com.eazybytes.loans.command.DeleteLoanCommand;
-import com.eazybytes.loans.command.UpdateLoanCommand;
-import com.eazybytes.loans.command.event.LoanCreatedEvent;
-import com.eazybytes.loans.command.event.LoanDeletedEvent;
-import com.eazybytes.loans.command.event.LoanUpdatedEvent;
+import com.kurobytes.loans.command.CreateLoanCommand;
+import com.kurobytes.loans.command.DeleteLoanCommand;
+import com.kurobytes.loans.command.UpdateLoanCommand;
+import com.kurobytes.loans.command.event.LoanCreatedEvent;
+import com.kurobytes.loans.command.event.LoanDeletedEvent;
+import com.kurobytes.loans.command.event.LoanUpdatedEvent;
 import lombok.extern.slf4j.Slf4j;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;

@@ -1,7 +1,7 @@
-package com.eazybytes.gatewayserver.handler;
+package com.kurobytes.gatewayserver.handler;
 
-import com.eazybytes.gatewayserver.dto.*;
-import com.eazybytes.gatewayserver.service.client.CustomerSummaryClient;
+import com.kurobytes.gatewayserver.dto.*;
+import com.kurobytes.gatewayserver.service.client.CustomerSummaryClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

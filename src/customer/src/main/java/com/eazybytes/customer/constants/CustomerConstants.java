@@ -1,4 +1,4 @@
-package com.eazybytes.customer.constants;
+package com.kurobytes.customer.constants;
 
 public final class CustomerConstants {
 

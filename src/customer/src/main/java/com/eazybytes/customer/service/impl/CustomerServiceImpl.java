@@ -1,14 +1,14 @@
-package com.eazybytes.customer.service.impl;
+package com.kurobytes.customer.service.impl;
 
-import com.eazybytes.customer.command.event.CustomerUpdatedEvent;
-import com.eazybytes.customer.constants.CustomerConstants;
-import com.eazybytes.customer.dto.CustomerDto;
-import com.eazybytes.customer.entity.Customer;
-import com.eazybytes.customer.exception.CustomerAlreadyExistsException;
-import com.eazybytes.customer.exception.ResourceNotFoundException;
-import com.eazybytes.customer.mapper.CustomerMapper;
-import com.eazybytes.customer.repository.CustomerRepository;
-import com.eazybytes.customer.service.ICustomerService;
+import com.kurobytes.customer.command.event.CustomerUpdatedEvent;
+import com.kurobytes.customer.constants.CustomerConstants;
+import com.kurobytes.customer.dto.CustomerDto;
+import com.kurobytes.customer.entity.Customer;
+import com.kurobytes.customer.exception.CustomerAlreadyExistsException;
+import com.kurobytes.customer.exception.ResourceNotFoundException;
+import com.kurobytes.customer.mapper.CustomerMapper;
+import com.kurobytes.customer.repository.CustomerRepository;
+import com.kurobytes.customer.service.ICustomerService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

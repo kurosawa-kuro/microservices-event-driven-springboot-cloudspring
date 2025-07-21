@@ -1,10 +1,10 @@
-package com.eazybytes.customer.query.projection;
+package com.kurobytes.customer.query.projection;
 
-import com.eazybytes.customer.command.event.CustomerCreatedEvent;
-import com.eazybytes.customer.command.event.CustomerDeletedEvent;
-import com.eazybytes.customer.command.event.CustomerUpdatedEvent;
-import com.eazybytes.customer.entity.Customer;
-import com.eazybytes.customer.service.ICustomerService;
+import com.kurobytes.customer.command.event.CustomerCreatedEvent;
+import com.kurobytes.customer.command.event.CustomerDeletedEvent;
+import com.kurobytes.customer.command.event.CustomerUpdatedEvent;
+import com.kurobytes.customer.entity.Customer;
+import com.kurobytes.customer.service.ICustomerService;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.config.ProcessingGroup;
 import org.axonframework.eventhandling.EventHandler;

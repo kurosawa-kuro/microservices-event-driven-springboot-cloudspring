@@ -1,4 +1,4 @@
-package com.eazybytes.eurekaserver;
+package com.kurobytes.eurekaserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

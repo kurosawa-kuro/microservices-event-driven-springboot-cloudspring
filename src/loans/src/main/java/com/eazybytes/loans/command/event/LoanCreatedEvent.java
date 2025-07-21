@@ -1,4 +1,4 @@
-package com.eazybytes.loans.command.event;
+package com.kurobytes.loans.command.event;
 
 import lombok.Data;
 

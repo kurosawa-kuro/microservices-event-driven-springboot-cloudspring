@@ -1,13 +1,13 @@
-package com.eazybytes.cards.command.interceptor;
+package com.kurobytes.cards.command.interceptor;
 
-import com.eazybytes.cards.command.CreateCardCommand;
-import com.eazybytes.cards.command.DeleteCardCommand;
-import com.eazybytes.cards.command.UpdateCardCommand;
-import com.eazybytes.cards.constants.CardsConstants;
-import com.eazybytes.cards.entity.Cards;
-import com.eazybytes.cards.exception.CardAlreadyExistsException;
-import com.eazybytes.cards.exception.ResourceNotFoundException;
-import com.eazybytes.cards.repository.CardsRepository;
+import com.kurobytes.cards.command.CreateCardCommand;
+import com.kurobytes.cards.command.DeleteCardCommand;
+import com.kurobytes.cards.command.UpdateCardCommand;
+import com.kurobytes.cards.constants.CardsConstants;
+import com.kurobytes.cards.entity.Cards;
+import com.kurobytes.cards.exception.CardAlreadyExistsException;
+import com.kurobytes.cards.exception.ResourceNotFoundException;
+import com.kurobytes.cards.repository.CardsRepository;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.commandhandling.CommandMessage;
 import org.axonframework.messaging.MessageDispatchInterceptor;

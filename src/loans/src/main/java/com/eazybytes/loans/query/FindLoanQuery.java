@@ -1,4 +1,4 @@
-package com.eazybytes.loans.query;
+package com.kurobytes.loans.query;
 
 import lombok.Value;
 

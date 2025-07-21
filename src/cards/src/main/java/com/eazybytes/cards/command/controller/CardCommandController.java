@@ -1,12 +1,12 @@
-package com.eazybytes.cards.command.controller;
+package com.kurobytes.cards.command.controller;
 
 
-import com.eazybytes.cards.command.CreateCardCommand;
-import com.eazybytes.cards.command.DeleteCardCommand;
-import com.eazybytes.cards.command.UpdateCardCommand;
-import com.eazybytes.cards.constants.CardsConstants;
-import com.eazybytes.cards.dto.CardsDto;
-import com.eazybytes.cards.dto.ResponseDto;
+import com.kurobytes.cards.command.CreateCardCommand;
+import com.kurobytes.cards.command.DeleteCardCommand;
+import com.kurobytes.cards.command.UpdateCardCommand;
+import com.kurobytes.cards.constants.CardsConstants;
+import com.kurobytes.cards.dto.CardsDto;
+import com.kurobytes.cards.dto.ResponseDto;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Pattern;
 import lombok.RequiredArgsConstructor;
@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Random;
 
 /**
- * @author Eazy Bytes
+ * @author Kuro Bytes
  */
 
 @RestController

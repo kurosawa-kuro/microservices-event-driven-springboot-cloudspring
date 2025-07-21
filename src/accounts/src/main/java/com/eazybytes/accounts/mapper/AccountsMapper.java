@@ -1,8 +1,8 @@
-package com.eazybytes.accounts.mapper;
+package com.kurobytes.accounts.mapper;
 
-import com.eazybytes.accounts.command.event.AccountUpdatedEvent;
-import com.eazybytes.accounts.dto.AccountsDto;
-import com.eazybytes.accounts.entity.Accounts;
+import com.kurobytes.accounts.command.event.AccountUpdatedEvent;
+import com.kurobytes.accounts.dto.AccountsDto;
+import com.kurobytes.accounts.entity.Accounts;
 
 public class AccountsMapper {
 

@@ -1,6 +1,6 @@
-package com.eazybytes.gatewayserver.config;
+package com.kurobytes.gatewayserver.config;
 
-import com.eazybytes.gatewayserver.service.client.CustomerSummaryClient;
+import com.kurobytes.gatewayserver.service.client.CustomerSummaryClient;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

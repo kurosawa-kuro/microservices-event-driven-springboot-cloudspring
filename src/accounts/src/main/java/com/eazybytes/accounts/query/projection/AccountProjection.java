@@ -1,10 +1,10 @@
-package com.eazybytes.accounts.query.projection;
+package com.kurobytes.accounts.query.projection;
 
-import com.eazybytes.accounts.command.event.AccountCreatedEvent;
-import com.eazybytes.accounts.command.event.AccountDeletedEvent;
-import com.eazybytes.accounts.command.event.AccountUpdatedEvent;
-import com.eazybytes.accounts.entity.Accounts;
-import com.eazybytes.accounts.service.IAccountsService;
+import com.kurobytes.accounts.command.event.AccountCreatedEvent;
+import com.kurobytes.accounts.command.event.AccountDeletedEvent;
+import com.kurobytes.accounts.command.event.AccountUpdatedEvent;
+import com.kurobytes.accounts.entity.Accounts;
+import com.kurobytes.accounts.service.IAccountsService;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.config.ProcessingGroup;
 import org.axonframework.eventhandling.EventHandler;

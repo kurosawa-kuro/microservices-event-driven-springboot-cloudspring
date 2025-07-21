@@ -1,6 +1,6 @@
-package com.eazybytes.accounts;
+package com.kurobytes.accounts;
 
-import com.eazybytes.accounts.command.interceptor.AccountsCommandInterceptor;
+import com.kurobytes.accounts.command.interceptor.AccountsCommandInterceptor;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.axonframework.config.EventProcessingConfigurer;
 import org.axonframework.eventhandling.PropagatingErrorHandler;

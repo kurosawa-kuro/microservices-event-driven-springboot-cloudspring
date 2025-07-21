@@ -1,7 +1,7 @@
-package com.eazybytes.accounts.query.controller;
+package com.kurobytes.accounts.query.controller;
 
-import com.eazybytes.accounts.dto.AccountsDto;
-import com.eazybytes.accounts.query.FindAccountQuery;
+import com.kurobytes.accounts.dto.AccountsDto;
+import com.kurobytes.accounts.query.FindAccountQuery;
 import jakarta.validation.constraints.Pattern;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.messaging.responsetypes.ResponseTypes;

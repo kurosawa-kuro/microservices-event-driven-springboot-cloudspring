@@ -1,8 +1,8 @@
-package com.eazybytes.cards.query.handlers;
+package com.kurobytes.cards.query.handlers;
 
-import com.eazybytes.cards.dto.CardsDto;
-import com.eazybytes.cards.query.FindCardQuery;
-import com.eazybytes.cards.service.ICardsService;
+import com.kurobytes.cards.dto.CardsDto;
+import com.kurobytes.cards.query.FindCardQuery;
+import com.kurobytes.cards.service.ICardsService;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.queryhandling.QueryHandler;
 import org.springframework.stereotype.Component;

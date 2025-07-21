@@ -1,8 +1,8 @@
-package com.eazybytes.cards.service;
+package com.kurobytes.cards.service;
 
-import com.eazybytes.cards.command.event.CardUpdatedEvent;
-import com.eazybytes.cards.dto.CardsDto;
-import com.eazybytes.cards.entity.Cards;
+import com.kurobytes.cards.command.event.CardUpdatedEvent;
+import com.kurobytes.cards.dto.CardsDto;
+import com.kurobytes.cards.entity.Cards;
 
 public interface ICardsService {
 

@@ -1,8 +1,8 @@
-package com.eazybytes.loans.query.handler;
+package com.kurobytes.loans.query.handler;
 
-import com.eazybytes.loans.dto.LoansDto;
-import com.eazybytes.loans.query.FindLoanQuery;
-import com.eazybytes.loans.service.ILoansService;
+import com.kurobytes.loans.dto.LoansDto;
+import com.kurobytes.loans.query.FindLoanQuery;
+import com.kurobytes.loans.service.ILoansService;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.queryhandling.QueryHandler;
 import org.springframework.stereotype.Component;

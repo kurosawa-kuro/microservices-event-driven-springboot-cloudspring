@@ -1,13 +1,13 @@
-package com.eazybytes.customer.command.interceptor;
+package com.kurobytes.customer.command.interceptor;
 
-import com.eazybytes.customer.command.CreateCustomerCommand;
-import com.eazybytes.customer.command.DeleteCustomerCommand;
-import com.eazybytes.customer.command.UpdateCustomerCommand;
-import com.eazybytes.customer.constants.CustomerConstants;
-import com.eazybytes.customer.entity.Customer;
-import com.eazybytes.customer.exception.CustomerAlreadyExistsException;
-import com.eazybytes.customer.exception.ResourceNotFoundException;
-import com.eazybytes.customer.repository.CustomerRepository;
+import com.kurobytes.customer.command.CreateCustomerCommand;
+import com.kurobytes.customer.command.DeleteCustomerCommand;
+import com.kurobytes.customer.command.UpdateCustomerCommand;
+import com.kurobytes.customer.constants.CustomerConstants;
+import com.kurobytes.customer.entity.Customer;
+import com.kurobytes.customer.exception.CustomerAlreadyExistsException;
+import com.kurobytes.customer.exception.ResourceNotFoundException;
+import com.kurobytes.customer.repository.CustomerRepository;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.commandhandling.CommandMessage;
 import org.axonframework.messaging.MessageDispatchInterceptor;

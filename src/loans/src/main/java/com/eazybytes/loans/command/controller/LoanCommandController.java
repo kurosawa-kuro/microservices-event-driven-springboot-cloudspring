@@ -1,13 +1,13 @@
-package com.eazybytes.loans.command.controller;
+package com.kurobytes.loans.command.controller;
 
 
-import com.eazybytes.loans.command.CreateLoanCommand;
-import com.eazybytes.loans.command.DeleteLoanCommand;
-import com.eazybytes.loans.command.UpdateLoanCommand;
-import com.eazybytes.loans.constants.LoansConstants;
-import com.eazybytes.loans.dto.LoansDto;
-import com.eazybytes.loans.dto.ResponseDto;
-import com.eazybytes.loans.service.ILoansService;
+import com.kurobytes.loans.command.CreateLoanCommand;
+import com.kurobytes.loans.command.DeleteLoanCommand;
+import com.kurobytes.loans.command.UpdateLoanCommand;
+import com.kurobytes.loans.constants.LoansConstants;
+import com.kurobytes.loans.dto.LoansDto;
+import com.kurobytes.loans.dto.ResponseDto;
+import com.kurobytes.loans.service.ILoansService;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Pattern;
 import lombok.RequiredArgsConstructor;
@@ -24,7 +24,7 @@ import java.util.Random;
  * Rest controller to handle loan commands. The commands are handled by axon
  * framework and are used to create, update and delete loans.
  *
- * @author Eazy Bytes
+ * @author Kuro Bytes
  */
 @RestController
 @RequestMapping(path = "/api", produces = {MediaType.APPLICATION_JSON_VALUE})

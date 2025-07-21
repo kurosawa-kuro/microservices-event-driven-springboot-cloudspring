@@ -1,4 +1,4 @@
-package com.eazybytes.customer.command.event;
+package com.kurobytes.customer.command.event;
 
 import lombok.Data;
 

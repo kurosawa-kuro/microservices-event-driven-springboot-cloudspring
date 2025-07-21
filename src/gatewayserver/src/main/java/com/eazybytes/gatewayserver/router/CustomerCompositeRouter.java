@@ -1,6 +1,6 @@
-package com.eazybytes.gatewayserver.router;
+package com.kurobytes.gatewayserver.router;
 
-import com.eazybytes.gatewayserver.handler.CustomerCompositeHandler;
+import com.kurobytes.gatewayserver.handler.CustomerCompositeHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;

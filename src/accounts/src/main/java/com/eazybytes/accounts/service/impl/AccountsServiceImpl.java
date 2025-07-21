@@ -1,14 +1,14 @@
-package com.eazybytes.accounts.service.impl;
+package com.kurobytes.accounts.service.impl;
 
-import com.eazybytes.accounts.command.event.AccountUpdatedEvent;
-import com.eazybytes.accounts.constants.AccountsConstants;
-import com.eazybytes.accounts.dto.AccountsDto;
-import com.eazybytes.accounts.entity.Accounts;
-import com.eazybytes.accounts.exception.AccountAlreadyExistsException;
-import com.eazybytes.accounts.exception.ResourceNotFoundException;
-import com.eazybytes.accounts.mapper.AccountsMapper;
-import com.eazybytes.accounts.repository.AccountsRepository;
-import com.eazybytes.accounts.service.IAccountsService;
+import com.kurobytes.accounts.command.event.AccountUpdatedEvent;
+import com.kurobytes.accounts.constants.AccountsConstants;
+import com.kurobytes.accounts.dto.AccountsDto;
+import com.kurobytes.accounts.entity.Accounts;
+import com.kurobytes.accounts.exception.AccountAlreadyExistsException;
+import com.kurobytes.accounts.exception.ResourceNotFoundException;
+import com.kurobytes.accounts.mapper.AccountsMapper;
+import com.kurobytes.accounts.repository.AccountsRepository;
+import com.kurobytes.accounts.service.IAccountsService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

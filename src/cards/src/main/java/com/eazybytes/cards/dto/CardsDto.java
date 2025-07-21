@@ -1,4 +1,4 @@
-package com.eazybytes.cards.dto;
+package com.kurobytes.cards.dto;
 
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Pattern;
